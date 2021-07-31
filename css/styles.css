@@ -1,0 +1,309 @@
+#brand-logo {
+	font-family: 'Qwigley', cursive;  
+    font-size: 2.4em;
+}
+
+#app-navbar {
+    background: linear-gradient(120deg, #0cf9e5, #5a84eb);
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.1em;
+	line-height: 40px;
+}
+
+body {
+    background: white;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Qwigley', cursive;  
+  font-family: 'Open Sans', sans-serif;
+  /*    background: url(../images/background01.jpg) no-repeat scroll center 0/ cover;*/
+}
+
+h1 {
+  font-size: 4.2em;
+  font-family: 'Qwigley', cursive; font-weight: 400;
+  color: #1DB3C0;
+  padding-bottom: 30px;
+  padding-right: 0px;
+}
+
+h2 {
+  font-size: 3.2rem;
+    font-family: 'Qwigley', cursive;  color: #1DB3C0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #373738;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  /*  color: #11999E;*/
+  color: #373738;
+  font-size: 1rem;
+  Font-weight: lighter;
+}
+
+a {
+  color: #1DB3C0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #373738;
+/*  text-align: left;*/
+  font-size: 1rem;
+}
+
+/*Navibar*/
+.navbar-custom {
+  background-color: #4DDDE0;
+  color: white;
+}
+
+/*back to top button*/
+#page_top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+#page_top a {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f139';
+  font-size: 50px;
+  color: #3fefee;
+}
+
+/*Divisions*/
+.containerTop {
+  position: relative;
+  padding-top: 60px;
+  width: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.narrower{
+	padding: 0 10%;
+}
+
+.areasOfOffers {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.columnImageSmall {
+  width: 75%;
+}
+
+.containerOracle {
+  position: relative;
+  padding-top: 20px;
+  padding-botomm: 200px;
+  width: 100%;
+}
+
+.btnBookShop{
+	background-color: white;
+	border-color: lightgray;
+	height: 40px;
+}
+.bookShopLogo{
+	height:30px;
+}
+
+.solidBG {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.containerOffers {
+  position: relative;
+  padding-top: 10px;
+  width: auto;
+  padding-bottom: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.serviceCard{
+	background: #F5FEFD;
+	border: none;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumboBackGround{
+	background: #F5FEFD;
+}
+
+.cards-container div:first-child {
+    margin: 0;
+}
+.inlineBlockList{
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	padding: 5% 5% 0 5%;
+}
+button.reading{
+  font-family: 'Open Sans', sans-serif;
+  background-color: dodgerblue;
+}
+.forSale{
+	  overflow-x: scroll;
+}
+.imgForSale{
+	  white-space:nowrap;
+}
+.listForSale{
+	  display: inline-block;
+      white-space:normal;
+}
+.sample1 {
+	width:			125px;
+	height:			175px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;	/* arts for sale section */
+}
+.sample1 .caption {
+	font-size:		100%;
+	font-family: 'Open Sans', sans-serif;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#fff;
+}
+.sample1 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.sample1:hover .mask {
+	opacity:		1;	
+}
+
+
+.containerAbout {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.bannerBox {
+  margin-bottom: 50px;
+}
+
+.containerBG {
+  position: relative;
+}
+.containerBGBlueText {
+  position: relative;
+}
+
+.containerBG h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+.containerBGBlueText h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.containerBG h4 {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
+
+.containerContact {
+  width: 100%;
+  position: relative;
+  }
+
+.containerContact h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: white;
+  }
+.containerContact h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  }
+
+
+.containerContact img {
+  width: 100%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #BEACC9;
+  border-width: 7.25px;
+  width: 17%;
+  margin: 40px auto;
+}
